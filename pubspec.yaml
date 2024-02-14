@@ -1,16 +1,19 @@
 name: hmis_geolocator
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
-  sdk: '>=3.2.6 <4.0.0'
+  sdk: ">=3.2.6 <4.0.0"
 
 dependencies:
+  dio: ^5.4.0
+  dropdown_search: ^5.0.6
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.4
   flutter_map: ^6.1.0
+  latlong2: ^0.9.0
   location: ^5.0.3
 
 dev_dependencies:
