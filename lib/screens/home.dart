@@ -73,11 +73,12 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   Center(
                     child: ElevatedButton(
-                      onPressed: cubit.selectedClinic == null
+                      onPressed: /* cubit.selectedClinic == null
                           ? null
-                          : () async {
-                              await cubit.locate(context);
-                            },
+                          :  */
+                          () async {
+                        await cubit.locate(context);
+                      },
                       child: const Text('Locate!'),
                     ),
                   ),
